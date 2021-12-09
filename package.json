@@ -1,0 +1,25 @@
+{
+  "name": "graphql-code-generator-watch-bug",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "gql:codegen": "graphql-codegen -c ./src/codegen.yml",
+    "gql:codegen:watch": "graphql-codegen --watch -c ./src/codegen.yml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filenwind/graphql-code-generator-watch-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filenwind/graphql-code-generator-watch-bug/issues"
+  },
+  "homepage": "https://github.com/filenwind/graphql-code-generator-watch-bug#readme",
+  "dependencies": {
+    "@graphql-codegen/cli": "2.3.0",
+    "@graphql-codegen/typescript": "2.4.1"
+  }
+}

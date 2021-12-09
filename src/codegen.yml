@@ -1,0 +1,13 @@
+schema:
+  - "./src/base/**/*.ts"
+generates:
+  ./src/serviceA/types.ts:
+    schema:
+      - "./src/serviceA/**/*.ts"
+    plugins:
+      - typescript
+  ./src/serviceB/types.ts:
+    schema:
+      - "./src/serviceB/**/*.ts"
+    plugins:
+      - typescript
